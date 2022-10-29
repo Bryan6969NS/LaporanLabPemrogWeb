@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 200px; 
+    background-color: orange;  
+  }
+  li a { 
+    display: block;  
+    color: #000;  
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) { 
+    background-color: #212121;
+    color: white;
+  }
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Arial";
+    font-weight: bold;
+ }
+ 
+ .grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 80px 80px 300px 100px 80px 150px;
+    box-sizing: border-box;
+    background-color: #EAF2E3;
+ }
+ 
+ .grid-container>div {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .item1 {
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  
+ }
+ 
+ .item2 {
+    background-color: orange;
+    grid-column: 1/2;
+    grid-row: 2/4;
+ }
+ 
+ .item3 {
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 2/6;
+ }
+ 
+ .item4 {
+    background-color: green;
+    grid-column: 3/4;
+    grid-row: 2/6;
+ }
+ 
+ .item5 {
+    background-color: blue;
+    grid-column: 1/2;
+    grid-row: 4/6;
+ }
+ 
+ .item6 {
+    background-color: purple;
+    grid-column: 1/4;
+    grid-row: 6/7;
+ }
